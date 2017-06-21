@@ -1,0 +1,20 @@
+{
+    "name": "language-mask",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=1.0.0"
+    },
+    "publisher": "alexkit",
+    "contributes": {
+        "languages": [{
+            "id": "mask",
+            "aliases": ["Mask", "mask"],
+            "extensions": [".mask"]
+        }],
+        "grammars": [{
+            "language": "mask",
+            "scopeName": "source.mask",
+            "path": "./syntaxes/mask.tmLanguage"
+        }]
+    }
+}
